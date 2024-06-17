@@ -1,5 +1,5 @@
 {% set name = "openapi-pydantic" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openapi_pydantic-{{ version }}.tar.gz
-  sha256: 22c43e0da5f479d28e11c083d6d3492e09a6ef9e2b3201ccddbfbc8786db1ffb
+  sha256: 88a8e93090250787723ecc196df201d8ab7d3576245a19840d28fc463fbca6f0
 
 build:
   noarch: python
