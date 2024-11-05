@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openapi_pydantic-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openapi_pydantic-{{ version }}.tar.gz
   sha256: a48f88e2904a056e1ef6d4728cfb2f36aa3213ce194fb09fc04259b9007165f0
 
 build:
